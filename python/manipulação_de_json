@@ -1,0 +1,8 @@
+import json
+
+dados = {"nome": "João", "idade": 30}
+dados_json = json.dumps(dados)
+print(dados_json)
+
+dados_dict = json.loads(dados_json)
+print(dados_dict)
